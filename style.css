@@ -260,6 +260,10 @@ textarea {
 .sendbtn {
   padding: 15px 25px;
 }
+.contactInfo p {
+  line-height: 40px;
+}
+
 /* Footer Section CSS here */
 
 footer {
