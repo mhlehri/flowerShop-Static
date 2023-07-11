@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Common CSS in this project */
+.container {
+  width: 1440px;
+}
+.textPrimary {
+  color: #e55473;
+}
+h1 {
+  color: #272727;
+  font-weight: bolder;
+}
+.btnPrimary {
+  background: #e55473;
+  color: white;
+  border-radius: 8px;
+  padding: 20px 43px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 30px;
+  font-size: 18px;
+}
+.center {
+  text-align: center;
+}
+
+/* Banner Section CSS here*/
+
+header {
+  background: rgb(252, 238, 241);
+}
+.bannerSection {
+  height: 850px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.bannerTitle {
+  font-size: 80px;
+}
+.bannerDescription {
+  font-size: 18px;
+  width: 634px;
+  line-height: 30px;
+  padding: 32px 0;
+  color: rgba(39, 39, 39, 0.6);
+}
+.bannerSectionImg {
+  display: flex;
+  width: 635px;
+  height: 800px;
+  margin-bottom: -50px;
+}
+
+/* Featured Flower Section CSS */
+
+.featuredFlowerSection {
+  padding: 128px 0;
+}
+.featuredInfo {
+  margin-bottom: 50px;
+}
+.featuredTitle {
+  font-size: 40px;
+  font-weight: 800;
+}
+.featuredDescription {
+  width: 594px;
+  margin: auto;
+  padding: 24px 0;
+}
+.featuredFlowerBoxes {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.featuredFlowerImg {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.featuredFlowerImg0 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.featuredFlowerImg1 {
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  align-items: center;
+}
+
+.featuredFlowerImg2 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.featuredImgTitle {
+  text-decoration: underline;
+  color: #272727;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+  margin: 30px 0;
+}
+
+/* Why Us Section CSS here */
+
+.whyUsSection {
+  margin-bottom: 128px;
+}
+.whyUsContainer {
+  border-radius: 8px;
+  height: 320px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.whyUsBox {
+  text-align: center;
+}
+.whyUsBox img {
+  width: 88px;
+}
+.whyUsTitle {
+  font-size: 24px;
+  color: rgba(39, 39, 39, 0.8);
+  margin-top: 24px;
+}
+
+/* Hot Deal Section CSS here */
+
+.hotDealSection {
+  background: rgba(229, 84, 115, 0.05);
+  height: 620px;
+}
+.hotDealContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 620px;
+}
+.hotDealInfo {
+  text-align: center;
+}
+.hotDealTitle {
+  font-size: 40px;
+}
+.hotDealDescription {
+  font-weight: 400;
+  padding: 24px 0;
+  width: 594px;
+}
+
+/* Instagram Section CSS here */
+
+.instagramSection {
+  padding-top: 128px;
+}
+.instagramInfo {
+  margin-bottom: 50px;
+}
+.instagramTitle {
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagramDescription {
+  width: 594px;
+  margin: auto;
+  padding: 24px 0;
+}
+.instagramImgContainer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* Subscription Section CSS here */
+
+.subscriptionSection {
+  margin: 128px 0;
+}
+.subSectionContainer {
+  background: url("FlowerAsset/Rectangle\ 9.png");
+  margin: auto;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subscriptionInfo {
+  margin-bottom: 40px;
+}
+.subscriptionSectionTitle {
+  font-size: 40px;
+  font-weight: 800;
+}
+.subscriptionSectionDescription {
+  width: 594px;
+  margin: auto;
+  padding: 16px 0;
+}
+.subscriptionContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+.subscriptionContainer input {
+  border: none;
+  border-radius: 8px;
+  padding: 22px;
+  outline: none;
+  width: 40%;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+/* Footer Section CSS here */
+
+footer {
+  height: 449px;
+  background: #111010;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerTitle {
+  color: white;
+  font-size: 48px;
+}
+.footerDescription {
+  color: rgba(255, 255, 255, 0.9);
+  width: 625px;
+  padding: 24px 0;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+}
