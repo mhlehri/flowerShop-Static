@@ -231,6 +231,14 @@ header {
   color: rgba(39, 39, 39, 0.6);
 }
 
+/* Contact Section CSS here */
+.contactSection {
+  background: rgb(252, 238, 241);
+}
+.contactSectionContainer {
+  margin: auto;
+}
+
 /* Footer Section CSS here */
 
 footer {
