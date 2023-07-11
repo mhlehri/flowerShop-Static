@@ -34,7 +34,9 @@ p {
 .center {
   text-align: center;
 }
-
+.text_underline {
+  text-decoration: underline;
+}
 /* Banner Section CSS here*/
 
 header {
@@ -237,8 +239,26 @@ header {
 }
 .contactSectionContainer {
   margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
 }
-
+.contactTitle {
+  margin-bottom: 24px;
+}
+.contactForm input,
+textarea {
+  border: none;
+  border-radius: 8px;
+  padding: 22px;
+  outline: none;
+  width: 60%;
+  margin-bottom: 10px;
+}
+.sendbtn {
+  padding: 15px 25px;
+}
 /* Footer Section CSS here */
 
 footer {
