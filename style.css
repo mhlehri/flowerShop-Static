@@ -36,6 +36,7 @@ p {
 }
 .text_underline {
   text-decoration: underline;
+  font-weight: bold;
 }
 /* Banner Section CSS here*/
 
